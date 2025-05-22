@@ -1,4 +1,4 @@
-# Super-Resolution-GAN
+# Enhanced Super-Resolution-GAN
 ## Introduction 
 The web app aims to generate a Super Resolution image of your low resolution image using Generative Adversarial Network. Various techniques are adopted for image upscaling which results in distorted image or reduced visual quality images. Deep Learning provides better solution to get optimized images. Super Resolution Genarative Adversarial Network is one amoung them. 
 
@@ -19,9 +19,8 @@ The output of the SR_GAN could be compared as follows. To know more about the re
 * Streamlit - Frontend 
 
 ## File structure
-* srgan_training - Training RRDN and RDN with a little change in hyper-parameters
-* app.py - Frontend using streamlit 
-* inference.py - predicion file 
+* esrgan_model.ipynb - Training RRDN and RDN with a little change in hyper-parameters
+* app.py - Frontend using streamlit
 * demo.gif - sample working of the web app
 
 ## Run
